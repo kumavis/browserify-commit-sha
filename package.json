@@ -1,0 +1,25 @@
+{
+  "name": "browserify-commit-sha",
+  "version": "0.0.1",
+  "description": "browserify transform for appending lastest git commit sha",
+  "main": "index.js",
+  "keywords": [
+    "browserify",
+    "browserify-transform",
+    "transform",
+    "git",
+    "commit",
+    "SHA",
+    "version"
+  ],
+  "author": "kumavis",
+  "contributors": [{
+    "name": "blackbing"
+  }],
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "through": "^2.3.4",
+    "exec-sync": "~0.1.6"
+  }
+}
