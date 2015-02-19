@@ -12,12 +12,12 @@ module.exports = function (bundle) {
   function write(buf) {
     if (firstTime) {
       var notification = '\n'+[
-        '/**',
-        '* ',
-        '* latest commit: ' + GIT_VERSION,
-        '* created at: ' + new Date(),
-        '* ',
-        '**/',
+        '',
+        '',
+        'global.__BROWSERIFY_META_DATA__GIT_VERSION = "' + GIT_VERSION + '";',
+        'global.__BROWSERIFY_META_DATA__CREATED_AT = "' + new Date() + '";',
+        '',
+        '',
       ].join('\n')+'\n\n'
       stream.queue(notification)
       firstTime = false
