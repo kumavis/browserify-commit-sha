@@ -14,8 +14,8 @@ module.exports = function (bundle) {
       var notification = '\n'+[
         '',
         '',
-        'window.GIT_VERSION = "' + GIT_VERSION + '";',
-        'window.CREATED_AT = "' + new Date() + '";',
+        'global.__BROWSERIFY_META_DATA__GIT_VERSION = "' + GIT_VERSION + '";',
+        'global.__BROWSERIFY_META_DATA__CREATED_AT = "' + new Date() + '";',
         '',
         '',
       ].join('\n')+'\n\n'
