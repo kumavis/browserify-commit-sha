@@ -13,19 +13,22 @@
     "version"
   ],
   "author": "kumavis",
-  "contributors": [{
-    "name": "blackbing"
-  }],
+  "contributors": [
+    {
+      "name": "blackbing",
+    },
+    {
+      "name": "deathcap",
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/kumavis/browserify-commit-sha"
   },
-  "engines": {
-    "node": "0.12.x"
-  },
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
+    "sync-exec": "^0.4.0",
     "through": "^2.3.4"
   }
 }

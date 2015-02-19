@@ -1,6 +1,7 @@
 var through = require('through')
-var GIT_VERSION = require('child_process').execSync('git rev-parse HEAD')
+var exec = require('sync-exec')
 
+var GIT_VERSION = exec('git rev-parse HEAD').stdout.replace('\n', '')
 
 var firstTime = true
 
