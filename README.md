@@ -12,8 +12,8 @@ The output looks like this:
 
 
 
-window.__BROWSERIFY_META_DATA__GIT_VERSION = "c6541cbdf842e204fd2a958a28e83ba7be42f3c9";
-window.__BROWSERIFY_META_DATA__CREATED_AT = "Sun Feb 15 2015 17:18:10 GMT-0500 (PET)";
+global.__BROWSERIFY_META_DATA__GIT_VERSION = "c6541cbdf842e204fd2a958a28e83ba7be42f3c9";
+global.__BROWSERIFY_META_DATA__CREATED_AT = "Sun Feb 15 2015 17:18:10 GMT-0500 (PET)";
 
 
 
@@ -27,3 +27,5 @@ var y = require('y')
 
 
 Its a bit of a hack, but it works alright.
+
+Requires node 0.12+ for execSync.
