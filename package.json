@@ -1,6 +1,6 @@
 {
   "name": "browserify-commit-sha",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "browserify transform for appending lastest git commit sha",
   "main": "index.js",
   "keywords": [
