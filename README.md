@@ -1,6 +1,8 @@
 browserify-commit-sha
 ============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kumavis/browserify-commit-sha.svg)](https://greenkeeper.io/)
+
 browserify transform for appending the latest git commit SHA
 
 The output looks like this:
